@@ -30,5 +30,4 @@ function deepestChild(){
     i++
   }
   return (document.querySelector(string))
-  // return something.innerHTML
 }
