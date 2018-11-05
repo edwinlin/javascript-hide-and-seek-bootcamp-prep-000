@@ -21,12 +21,10 @@ function deepestChild(){
   var string = 'div#grand-node'
   var grand = document.querySelector(string)
   var something = grand.querySelectorAll('div')
-  // console.log(something.length)
+
   var i = 0
   while(i < something.length){
     string += " div"
-    // console.log(something)
-    
     i++
   }
   return (document.querySelector(string))
