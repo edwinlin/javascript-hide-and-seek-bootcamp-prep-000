@@ -29,3 +29,16 @@ function deepestChild(){
   }
   return (document.querySelector(string))
 }
+
+// official solution - how could we possibly know .children method?
+// function deepestChild() {
+//   let node = document.getElementById('grand-node');
+//   let nextNode = node.children[0];
+
+//   while (nextNode) {
+//     node = nextNode;
+//     nextNode = node.children[0];
+//   }
+
+//   return node;
+// }
